@@ -57,8 +57,6 @@ This project implements a basic FORTH interpreter in Haskell. FORTH is a stack-b
 
 ## How to Run the Program
 
-### Prerequisites
-
 - **GHC and Cabal:**  
   Install GHC and Cabal using [GHCup](https://www.haskell.org/ghcup/).
 
@@ -69,3 +67,11 @@ This project implements a basic FORTH interpreter in Haskell. FORTH is a stack-b
 - **Build Cabal**
   ```bash
   cd /path/to/FORTH
+
+- **Run the Program**
+  ```bash
+  cabal run FORTH tests/<test-file>.4TH
+
+- **(OR) Run all tests**
+  ```bash
+  ./run_tests.sh
