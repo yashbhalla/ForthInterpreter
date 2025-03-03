@@ -65,3 +65,7 @@ This project implements a basic FORTH interpreter in Haskell. FORTH is a stack-b
 - **Update Cabal:**  
   ```bash
   cabal update
+
+-**Build Cabal**
+  ```bash
+  cd /path/to/FORTH
